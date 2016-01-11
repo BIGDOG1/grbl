@@ -29,9 +29,9 @@
 
   // Description: X-Carve 3D Carver CNC mill with three 200 step/rev motors driven by Synthetos
   // grblShield at 24V.
-  #define MICROSTEPS_XY 8
+  #define MICROSTEPS_XY 2
   #define STEP_REVS_XY 200
-  #define MM_PER_REV_XY (2.0*20) // 2mm belt pitch, 20 pulley teeth
+  #define MM_PER_REV_XY 2.117 // 2mm belt pitch, 20 pulley teeth
   #define MICROSTEPS_Z 2
   #define STEP_REVS_Z 200
   #define MM_PER_REV_Z 2.117 // ACME 3/8-12 Leadscrew
